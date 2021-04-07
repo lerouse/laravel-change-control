@@ -1,0 +1,43 @@
+{
+  "name": "lerouse/laravel-change-control",
+  "description": "Laravel change control/version management package.",
+  "keywords": ["laravel", "changelog", "version", "control"],
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christian Innerbichler"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "illuminate/console": "~5.8.0|^6.0|^7.0|^8.0",
+    "illuminate/support": "~5.8.0|^6.0|^7.0|^8.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^3.8",
+    "phpunit/phpunit": "^7.0"
+  },
+  "autoload": {
+    "files": [
+      "src/helpers.php"
+    ],
+    "psr-4": {
+      "Lerouse\\LaravelChangeControl\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Lerouse\\LaravelChangeControl\\Tests\\": "tests"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Lerouse\\LaravelChangeControl\\LaravelChangeControlServiceProvider"
+      ]
+    }
+  }
+}

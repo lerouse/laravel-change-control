@@ -1,6 +1,6 @@
 # Laravel Change Control
 
-<a href="https://packagist.org/packages/lerouse/laravel-change-control"><img src="https://github.com/lerouse/laravel-change-control/actions/workflows/php.yml/badge.svg"></a>
+<a href="https://packagist.org/packages/lerouse/laravel-change-control"><img src="https://github.com/lerouse/laravel-change-control/actions/workflows/laravel-change-control-php-8-1.yml/badge.svg"></a>
 <a href="https://packagist.org/packages/lerouse/laravel-change-control"><img src="https://img.shields.io/packagist/v/lerouse/laravel-change-control" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/lerouse/laravel-change-control"><img src="https://img.shields.io/packagist/l/lerouse/laravel-change-control" alt="License"></a>
 

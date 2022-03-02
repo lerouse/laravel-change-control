@@ -26,7 +26,7 @@ class Version
 
     public static function getChangelogLocation(): string
     {
-        return sprintf('%s/%s', config('change-control.path'), config('change-control.filename'));
+        return sprintf('%s/%s', config('change-control.path', base_path()), config('change-control.filename', 'changelog.md'));
     }
 
 }

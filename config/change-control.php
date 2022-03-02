@@ -22,6 +22,6 @@ return [
     |
     */
 
-    'path' => '/'
+    'path' => base_path(),
 
 ];

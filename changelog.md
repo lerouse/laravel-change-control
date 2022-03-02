@@ -1,3 +1,7 @@
+## v1.2.1
+
++ Update file location and change-control config defaults
+
 ## v1.2.0
 
 + Increase Laravel requirement to ^v8.0|v9.0

@@ -34,9 +34,9 @@ php artisan vendor:publish --tag=change-control-config
 
 ### Changelog Setup
 
-To use the repository create a ```changelod.md``` file located in the root of your Laravel project.
+To use the repository create a ```changelog.md``` file located in the root of your Laravel project.
 
-Add change/version information to the newly created ```changelod.md``` file in the following format:-
+Add change/version information to the newly created ```changelog.md``` file in the following format:-
 
 ```markdown
 ## v2.1.3

@@ -1,3 +1,7 @@
+## v1.2.2
+
++ Typo in readme.md
+
 ## v1.2.1
 
 + Update file location and change-control config defaults

@@ -1,3 +1,12 @@
+## v2.0.0
+
++ Minimum PHP 8.2.
++ Add version constraint for Laravel v11, v12.
++ Drop constraint for Laravel v8, v9.
++ Upgrade phpunit to v11.
++ Upgrade orchestra/testbench to versions supporting Laravel v10, v11, v12.
++ Update GitHub workflows to run on PHP 8.2 and 8.4 only.
+
 ## v1.3.0
 
 + Increase Laravel requirement to ^v8.0|^v9.0|^v10.0

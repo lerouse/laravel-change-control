@@ -1,4 +1,4 @@
-name: Laravel Change Control PHP 8.1
+name: Laravel Change Control PHP 8.4
 
 on:
   push:
@@ -14,12 +14,12 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: 8.1
+          php-version: 8.4
       - name: Validate composer.json and composer.lock
         run: composer validate --strict
       - name: Cache Composer packages
         id: composer-cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: vendor
           key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}

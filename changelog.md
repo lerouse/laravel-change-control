@@ -1,3 +1,7 @@
+## v2.1.0
+
++ Add support for Laravel v13.
+
 ## v2.0.0
 
 + Minimum PHP 8.2.
